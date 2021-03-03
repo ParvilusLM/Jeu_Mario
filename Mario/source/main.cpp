@@ -8,8 +8,15 @@ using namespace sf;
 int main()
 {
 	// TODO Creer la boucle principale pour le programme
+
+	// Recuperer le desktop video mode actif
+	sf::VideoMode desktopMode = sf::VideoMode::getDesktopMode();
+	
+	int LARGEUR_FEN= desktopMode.width;
+	int HAUTEUR_FEN= desktopMode.height;
+
 	std::cout << "Bonjour";
-	sf::RenderWindow fenetre(VideoMode(cLARGEUR_FEN,cHAUTEUR_FEN),"Mario");
+	sf::RenderWindow fenetre(VideoMode(LARGEUR_FEN,HAUTEUR_FEN, desktopMode.bitsPerPixel),"Mario", Style::None);
 
 	while (fenetre.isOpen())
 	{
@@ -20,6 +27,13 @@ int main()
 			{
 				fenetre.close();
 			}
+
+
+			if(evenement.type==Event::KeyPressed && evenement.key.code==Keyboard::Home)
+			{
+				fenetre.close();
+			}
+
 		}
 
 

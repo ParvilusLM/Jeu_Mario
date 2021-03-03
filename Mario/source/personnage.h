@@ -4,6 +4,7 @@ class Personnage {
 	Personnage();
 
 public:
+	
 
 
 
