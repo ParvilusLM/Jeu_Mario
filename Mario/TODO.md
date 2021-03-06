@@ -1,0 +1,12 @@
+#Personnage
+	Capacites:
+			
+			
+	
+	Actions:
+	
+	
+	
+	
+#Ennemi
+		

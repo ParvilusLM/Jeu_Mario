@@ -150,6 +150,7 @@
     <ClCompile Include="source\menu.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="source\enums.h" />
     <ClInclude Include="source\son.h" />
     <ClInclude Include="source\constantes.h" />
     <ClInclude Include="source\monde.h" />
