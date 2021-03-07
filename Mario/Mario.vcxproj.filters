@@ -36,6 +36,9 @@
     <ClCompile Include="source\son.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="source\camera.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="source\menu.h">
@@ -63,6 +66,9 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="source\enums.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="source\camera.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

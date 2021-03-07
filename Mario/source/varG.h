@@ -1,5 +1,6 @@
 #pragma once
 #include "enums.h"
+#include <SFML/Graphics.hpp>
 
 extern int LARGEUR_FEN;
 extern int HAUTEUR_FEN;
@@ -17,5 +18,11 @@ struct Joueur{
 struct Ennemi{
 	int vie;
 	
+};
+
+struct BoutonSimpleText {
+	sf::Text m_bouton;
+	sf::Font m_font;
+
 };
 

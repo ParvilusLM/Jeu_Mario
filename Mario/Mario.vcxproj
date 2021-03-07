@@ -141,6 +141,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="source\camera.cpp" />
     <ClCompile Include="source\son.cpp" />
     <ClCompile Include="source\monde.cpp" />
     <ClCompile Include="source\personnage.cpp" />
@@ -150,6 +151,7 @@
     <ClCompile Include="source\menu.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="source\camera.h" />
     <ClInclude Include="source\enums.h" />
     <ClInclude Include="source\son.h" />
     <ClInclude Include="source\constantes.h" />
