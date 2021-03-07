@@ -1,2 +1,0 @@
-C:\Users\My Foe\Documents\programmation projets\sfml\Version 2.0\Proj Mario\Mario2.0\Mario\Debug\Mario.exe
-C:\Users\My Foe\Documents\programmation projets\sfml\Version 2.0\Proj Mario\Mario2.0\Mario\Debug\Mario.pdb

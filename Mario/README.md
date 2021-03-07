@@ -15,12 +15,12 @@ Dans le dossier screenshots vous trouverez des apercus du jeu
 
 ## Specifications
 **Outils utilises**
--IDE : Visual Studio 2019
+-IDE : CodeBlocks
 -OS  : Windows
 -Bibliotheque externe : SFML
 
 ## Test
-Pour tester le jeu il suffit juste de copier l'executable qui se trouve dans le dossier debug
+Pour tester le jeu il suffit juste de copier l'executable qui se trouve dans le dossier bin
 dans le dossier ou se trouve les fichiers .dll
 
 
