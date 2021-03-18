@@ -7,6 +7,9 @@ class Camera {
 public:
 
 
+
 private:
+    sf::View m_camera;
+
 
 };

@@ -27,8 +27,12 @@
 		<Compiler>
 			<Add option="-Wall" />
 		</Compiler>
+		<Unit filename="source/animation.cpp" />
+		<Unit filename="source/animation.h" />
 		<Unit filename="source/camera.cpp" />
 		<Unit filename="source/camera.h" />
+		<Unit filename="source/carte.cpp" />
+		<Unit filename="source/carte.h" />
 		<Unit filename="source/constantes.h" />
 		<Unit filename="source/controleur.cpp" />
 		<Unit filename="source/controleur.h" />
@@ -38,17 +42,13 @@
 		<Unit filename="source/main.cpp" />
 		<Unit filename="source/menu.cpp" />
 		<Unit filename="source/menu.h" />
-		<Unit filename="source/monde.cpp" />
-		<Unit filename="source/monde.h" />
+		<Unit filename="source/monstre.cpp" />
+		<Unit filename="source/monstre.h" />
 		<Unit filename="source/personnage.cpp" />
 		<Unit filename="source/personnage.h" />
 		<Unit filename="source/son.cpp" />
 		<Unit filename="source/son.h" />
 		<Unit filename="source/varG.h" />
-		<Extensions>
-			<code_completion />
-			<envvars />
-			<debugger />
-		</Extensions>
+		<Extensions />
 	</Project>
 </CodeBlocks_project_file>

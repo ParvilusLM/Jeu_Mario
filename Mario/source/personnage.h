@@ -1,10 +1,13 @@
 #pragma once
 
 class Personnage {
-	Personnage();
 
 public:
-	
+    Personnage();
+    ~Personnage();
+
+
+
 
 
 

@@ -8,16 +8,21 @@ extern int HAUTEUR_FEN;
 struct Joueur{
 	int vie;
 	int sante;
+	int orientation;
 	Type_perso typePerso;
 	Etat_perso etatPerso;
 	Action_perso actionPerso;
 
-
 };
 
 struct Ennemi{
-	int vie;
-	
+	int sante;
+	int orientation;
+	Type_ennemi typeEnnemi;
+	Etat_ennemi etatEnnemi;
+	Action_ennemi actionEnnemi;
+
+
 };
 
 struct BoutonSimpleText {

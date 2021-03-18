@@ -1,10 +1,11 @@
 #pragma once
 
-class Monde
+class Carte
 {
 public:
-	Monde();
-	~Monde();
+    Carte();
+	~Carte();
+
 
 private:
 
