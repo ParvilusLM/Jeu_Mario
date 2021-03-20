@@ -1,10 +1,13 @@
 #pragma once
 #include "enums.h"
+
 #include <SFML/Graphics.hpp>
 
 extern int LARGEUR_FEN;
 extern int HAUTEUR_FEN;
 
+
+//pour le personnage
 struct Joueur{
 	int vie;
 	int sante;
@@ -15,19 +18,64 @@ struct Joueur{
 
 };
 
-struct Ennemi{
+
+//pour les monstres
+struct Monstre{
 	int sante;
 	int orientation;
-	Type_ennemi typeEnnemi;
-	Etat_ennemi etatEnnemi;
-	Action_ennemi actionEnnemi;
+	Type_monstre typeMonstre;
+	Etat_monstre etatMonstre;
+	Action_monstre actionMonstre;
 
 
 };
 
-struct BoutonSimpleText {
-	sf::Text m_bouton;
-	sf::Font m_font;
 
+//pour les menu
+
+struct BoutonSimple {
+	Etat_bouton etat;
+	sf::Sprite sImage;
+	Etat_anim etatAnimation;
 };
+
+struct structMenu
+{
+	/***  Elements des differents menus   ***/
+
+    Type_menu m_typeMenu;
+    Menu_actif m_menuActif;
+    Element_actif m_elementActif;
+
+    //Pour le menu principal
+    std::vector<BoutonSimple> m_vecBoutonsMP;
+
+    //pour le menu instructions
+    std::vector<BoutonSimple> m_vecBoutonsI;
+
+
+    //pour le menu options
+    std::vector<BoutonSimple> m_vecBoutonsOp;
+
+	
+	//pour le menu credits
+	
+
+
+
+    //pour le menu pause
+    std::vector<BoutonSimple> m_vecBoutonsP;
+
+
+    //pour le menu jeu en cours
+    std::vector<BoutonSimple> m_vecBoutonsJEC;
+};
+
+
+
+
+//pour la carte
+
+
+//pour la camera
 

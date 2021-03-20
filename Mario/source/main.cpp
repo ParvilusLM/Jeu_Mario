@@ -25,11 +25,9 @@ int main()
     sf::View vuePrincipale(FloatRect(0.f,0.f,LARGEUR_FEN,HAUTEUR_FEN));
 
 
-
-
 	//ajout une image test
 	sf::Texture texture;
-	texture.loadFromFile("donnees/images/bg.png");
+	texture.loadFromFile("donnees/images/tileset/BG.png");
 
 	sf::Sprite background;
 	background.setPosition(0.f,0.f);
@@ -62,9 +60,12 @@ int main()
 
 		fenetre.clear(Color(86, 58, 65));
 
+
 		fenetre.setView(vuePrincipale);
 
 		fenetre.draw(background);
+
+
 
 		fenetre.display();
 

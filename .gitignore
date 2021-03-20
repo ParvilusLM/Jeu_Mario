@@ -1,4 +1,4 @@
-bin/
-donnees/
+bin
+donnees
 *.dll
-Debug/
+Debug

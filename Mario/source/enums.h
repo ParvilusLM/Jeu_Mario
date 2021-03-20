@@ -31,7 +31,17 @@ enum Action_perso {
 
 
 //pour les ennemis
+enum Type_monstre{
 
+};
+
+enum Etat_monstre{
+
+};
+
+enum Action_monstre{
+
+};
 
 // pour l'animation
 enum Type_anim {
@@ -61,10 +71,11 @@ enum Difficulte_niveau {
 };
 
 
-//pour les boutons 
+//pour les boutons
 enum Etat_bouton {
 
 };
+
 
 //pour les sons
 enum Type_son {
