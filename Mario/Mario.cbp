@@ -38,6 +38,8 @@
 		<Unit filename="source/controleur.h" />
 		<Unit filename="source/decor.cpp" />
 		<Unit filename="source/decor.h" />
+		<Unit filename="source/entree.cpp" />
+		<Unit filename="source/entree.h" />
 		<Unit filename="source/enums.h" />
 		<Unit filename="source/main.cpp" />
 		<Unit filename="source/menu.cpp" />

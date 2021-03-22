@@ -2,6 +2,7 @@
 #include "enums.h"
 
 #include <SFML/Graphics.hpp>
+#include <iostream>
 
 extern int LARGEUR_FEN;
 extern int HAUTEUR_FEN;
@@ -34,12 +35,15 @@ struct Monstre{
 //pour les menu
 
 struct BoutonSimple {
+	Nom_bouton nom;
 	Etat_bouton etat;
+	Action_bouton action;
 	sf::Sprite sImage;
+	sf::Text textBouton;
 	Etat_anim etatAnimation;
 };
 
-struct structMenu
+struct StructMenu
 {
 	/***  Elements des differents menus   ***/
 
@@ -59,8 +63,6 @@ struct structMenu
 
 	
 	//pour le menu credits
-	
-
 
 
     //pour le menu pause

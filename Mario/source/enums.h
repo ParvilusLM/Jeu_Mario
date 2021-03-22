@@ -45,7 +45,7 @@ enum Action_monstre{
 
 // pour l'animation
 enum Type_anim {
-
+	
 };
 
 enum Etat_anim {
@@ -73,6 +73,14 @@ enum Difficulte_niveau {
 
 //pour les boutons
 enum Etat_bouton {
+
+};
+
+enum Nom_bouton {
+
+};
+
+enum Action_bouton {
 
 };
 
