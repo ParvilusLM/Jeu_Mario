@@ -17,10 +17,26 @@ Menu::Menu(sf::RenderWindow& fenetre){
 void Menu::initMenu(){
 
     //Menu principal
+    for (int i = 0; i < ; i++)
+    {
+        
+    }
+    
 
     //Menu instructions
 
-    //Menu 
+    //Menu options
+
+    //Menu selectNiveau
+
+    //Menu pause
+
+    //Menu Credits
+
+    //Menu Record
+
+    //Menu JeuEnCours
+
 }
 
 void Menu::miseAEchelleMenu(){

@@ -2,7 +2,6 @@
 #include <SFML/Graphics.hpp>
 #include "constantes.h"
 
-using namespace sf;
 
 //Les variables globales
 

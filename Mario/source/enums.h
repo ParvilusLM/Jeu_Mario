@@ -55,11 +55,23 @@ enum Etat_anim {
 
 //pour le menu
 enum Type_menu {
-
+	menuPrincipal,
+	menuInstructions,
+	menuOptions,
+	menuSelectNiveau,
+	menuCredits,
+	menuPause,
+	menuJeuEnCours
 };
 
 enum Menu_actif {
-
+	mPrincipal_actif,
+	mInstructions_actif,
+	mOptions_actif,
+	mSelectNiveau_actif,
+	mCredits_actif,
+	mPause_actif,
+	mJeuEnCours_actif
 };
 
 enum Element_actif {
