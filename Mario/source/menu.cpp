@@ -33,7 +33,7 @@ void Menu::initMenu(){
 
     //Menu Credits
 
-    //Menu Record
+    //Menu Scores
 
     //Menu JeuEnCours
 

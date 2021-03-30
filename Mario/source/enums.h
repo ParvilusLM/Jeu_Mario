@@ -61,6 +61,7 @@ enum Type_menu {
 	menuSelectNiveau,
 	menuCredits,
 	menuPause,
+	menuScores,
 	menuJeuEnCours
 };
 
@@ -70,6 +71,7 @@ enum Menu_actif {
 	mOptions_actif,
 	mSelectNiveau_actif,
 	mCredits_actif,
+	mScores_actif,
 	mPause_actif,
 	mJeuEnCours_actif
 };
@@ -85,7 +87,7 @@ enum Difficulte_niveau {
 
 //pour les boutons
 enum Etat_bouton {
-
+	
 };
 
 enum Nom_bouton {

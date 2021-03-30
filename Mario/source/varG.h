@@ -7,8 +7,11 @@
 extern int LARGEUR_FEN;
 extern int HAUTEUR_FEN;
 
+/*
+	*instance representant le personnage
+	*
+*/
 
-//pour le personnage
 struct Joueur{
 	int vie;
 	int sante;
@@ -16,23 +19,26 @@ struct Joueur{
 	Type_perso typePerso;
 	Etat_perso etatPerso;
 	Action_perso actionPerso;
-
 };
 
 
-//pour les monstres
+/*
+	*instance representant les monstres
+	*
+*/
 struct Monstre{
 	int sante;
 	int orientation;
 	Type_monstre typeMonstre;
 	Etat_monstre etatMonstre;
 	Action_monstre actionMonstre;
-
-
 };
 
 
-//pour les menu
+/* 
+ 	*Ensemble des structures pour le menu 
+	* BoutonSimple, StructMenu, 
+*/	 
 
 struct BoutonSimple {
 	Nom_bouton nom;
@@ -82,8 +88,14 @@ struct StructMenu
 
 
 
-//pour la carte
+/* 
+ 	*pour la carte
+	* 
+*/
 
 
-//pour la camera
+/* 
+ 	*pour la camera
+	* 
+*/
 
