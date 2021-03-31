@@ -17,25 +17,61 @@ Menu::Menu(sf::RenderWindow& fenetre){
 void Menu::initMenu(){
 
     //Menu principal
-    for (int i = 0; i < ; i++)
+    for (int i = 0; i < 6; i++)
+    {
+        BoutonSimple nouvBouton;
+        nouvBouton.action=aucune;
+        nouvBouton.etat=e_normal;
+        nouvBouton.etatAnimation=false;  
+    }
+    
+    //Menu instructions
+    for (int i = 0; i < 3; i++)
     {
         
     }
-    
-
-    //Menu instructions
 
     //Menu options
+    for (int i = 0; i < 7; i++)
+    {
+        
+    }
 
     //Menu selectNiveau
+    for (int i = 0; i < 2; i++)
+    {
+        
+    }
 
     //Menu pause
+    for (int i = 0; i < 4; i++)
+    {
+        
+    }
 
     //Menu Credits
+    for (int i = 0; i < 1; i++)
+    {
+        
+    }
 
     //Menu Scores
+    for (int i = 0; i < 1; i++)
+    {
+        
+    }
 
     //Menu JeuEnCours
+    for (int i = 0; i < 1; i++)
+    {
+        
+    }
+
+    //Menu FinPartie
+    for (int i = 0; i < 3; i++)
+    {
+        
+    }
 
 }
 

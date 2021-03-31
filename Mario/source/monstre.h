@@ -10,6 +10,6 @@ public:
 
 
 private:
-
+    std::vector<GenerateurMonstre> m_vecGeneMonstre;
 
 };

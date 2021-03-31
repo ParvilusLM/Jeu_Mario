@@ -14,7 +14,7 @@ public:
 
 
 private:
-    
+    Joueur m_joueur;
 
 
 };

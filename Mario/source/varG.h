@@ -35,6 +35,13 @@ struct Monstre{
 };
 
 
+struct GenerateurMonstre{
+	sf::Vector2f position;
+	std::vector<Monstre > vecMonstre;
+	int actif;
+}
+
+
 /* 
  	*Ensemble des structures pour le menu 
 	* BoutonSimple, StructMenu, 
@@ -54,35 +61,35 @@ struct StructMenu
 	/***  Elements des differents menus   ***/
 
     Type_menu m_typeMenu;
-    Menu_actif m_menuActif;
     Element_actif m_elementActif;
 
     //Pour le menu principal
-    std::vector<BoutonSimple > m_vecBoutonsMP;
+    std::vector<BoutonSimple > m_vecBMPrincipal;
 
     //pour le menu instructions
-    std::vector<BoutonSimple > m_vecBoutonsI;
+    std::vector<BoutonSimple > m_vecBInstructions;
 
 
     //pour le menu options
-    std::vector<BoutonSimple > m_vecBoutonsOp;
+    std::vector<BoutonSimple > m_vecBOptions;
 
 	//pour le menu selectionNiveau
-	std::vector<BoutonSimple > m_vecBoutonsSN;
+	std::vector<BoutonSimple > m_vecBSelectNiveau;
 
 	
 	//pour le menu credits
-
+	std::vector<BoutonSimple > m_vecBCredits;
 	
-	//pour le menu Record
+	//pour le menu scores
+	std::vector<BoutonSimple > m_vecBScores;
 
 
     //pour le menu pause
-    std::vector<BoutonSimple > m_vecBoutonsP;
+    std::vector<BoutonSimple > m_vecBPause;
 
 
     //pour le menu jeu en cours
-    std::vector<BoutonSimple > m_vecBoutonsJEC;
+    std::vector<BoutonSimple > m_vecBJeuEnCours;
 };
 
 

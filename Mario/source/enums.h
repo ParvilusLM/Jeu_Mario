@@ -3,29 +3,29 @@
 
 //pour le personnage
 enum Type_perso {
-	Robot,
-	Chevalier
+	e_Robot,
+	e_Chevalier
 };
 
 enum Etat_perso {
-	Vivant,
-	Mort
+	e_Vivant,
+	e_Mort
 };
 
 enum Action_perso {
-	Attack,
-	Idle,
-	Jump,
-	JumpMelee,
-	JumpShoot,
-	JumpAttack,
-	Melee,
-	Run,
-	RunShoot,
-	Shoot,
-	Slide,
-	Dead,
-	Walk,
+	e_Attack,
+	e_Idle,
+	e_Jump,
+	e_JumpMelee,
+	e_JumpShoot,
+	e_JumpAttack,
+	e_Melee,
+	e_Run,
+	e_RunShoot,
+	e_Shoot,
+	e_Slide,
+	e_Dead,
+	e_Walk,
 
 };
 
@@ -55,25 +55,15 @@ enum Etat_anim {
 
 //pour le menu
 enum Type_menu {
-	menuPrincipal,
-	menuInstructions,
-	menuOptions,
-	menuSelectNiveau,
-	menuCredits,
-	menuPause,
-	menuScores,
-	menuJeuEnCours
-};
-
-enum Menu_actif {
-	mPrincipal_actif,
-	mInstructions_actif,
-	mOptions_actif,
-	mSelectNiveau_actif,
-	mCredits_actif,
-	mScores_actif,
-	mPause_actif,
-	mJeuEnCours_actif
+	e_menuPrincipal,
+	e_menuInstructions,
+	e_menuOptions,
+	e_menuSelectNiveau,
+	e_menuCredits,
+	e_menuPause,
+	e_menuScores,
+	e_menuJeuEnCours,
+	e_menuFinPartie
 };
 
 enum Element_actif {
@@ -86,16 +76,22 @@ enum Difficulte_niveau {
 
 
 //pour les boutons
-enum Etat_bouton {
+enum Nom_bouton {
+	e_bNouvellePartie,
+	e_bInstructions,
 	
+
 };
 
-enum Nom_bouton {
-
+enum Etat_bouton {
+	e_normal,
+	e_hover,
+	e_clicked,
+	e_locked
 };
 
 enum Action_bouton {
-
+	e_aucune
 };
 
 
