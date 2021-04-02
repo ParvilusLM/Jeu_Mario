@@ -49,7 +49,8 @@ enum Type_anim {
 };
 
 enum Etat_anim {
-
+	e_enCours,
+	e_enPause
 };
 
 
@@ -67,7 +68,7 @@ enum Type_menu {
 };
 
 enum Element_actif {
-
+	e_aucun_actif
 };
 
 enum Difficulte_niveau {
@@ -91,7 +92,7 @@ enum Etat_bouton {
 };
 
 enum Action_bouton {
-	e_aucune
+	e_aucune_action
 };
 
 

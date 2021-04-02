@@ -16,13 +16,21 @@ Menu::Menu(sf::RenderWindow& fenetre){
 //initialisation des menus
 void Menu::initMenu(){
 
+    m_menu.m_typeMenu=e_menuPrincipal;
+    m_menu.m_elementActif=e_aucun_actif;
+    int nomBouton=0;
+
     //Menu principal
     for (int i = 0; i < 6; i++)
     {
         BoutonSimple nouvBouton;
-        nouvBouton.action=aucune;
+        nouvBouton.action=e_aucune;
         nouvBouton.etat=e_normal;
-        nouvBouton.etatAnimation=false;  
+        nouvBouton.etatAnimation=e_enPause; 
+        nouvBouton.nom=nomBouton;
+        nomBouton++;
+
+        m_menu.m_vecBMPrincipal.
     }
     
     //Menu instructions
