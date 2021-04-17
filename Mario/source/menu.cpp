@@ -11,7 +11,7 @@ Menu::Menu(sf::RenderWindow& fenetre){
 
 
 }
-	
+
 
 //initialisation des menus
 void Menu::initMenu(){
@@ -26,59 +26,59 @@ void Menu::initMenu(){
         BoutonSimple nouvBouton;
         nouvBouton.action=e_aucune;
         nouvBouton.etat=e_normal;
-        nouvBouton.etatAnimation=e_enPause; 
+        nouvBouton.etatAnimation=e_enPause;
         nouvBouton.nom=nomBouton;
         nomBouton++;
 
-        m_menu.m_vecBMPrincipal.
+        m_menu.m_vecBMPrincipal.insert(m_menu.m_vecBMPrincipal.end(),nouvBouton);
     }
-    
+
     //Menu instructions
     for (int i = 0; i < 3; i++)
     {
-        
+
     }
 
     //Menu options
     for (int i = 0; i < 7; i++)
     {
-        
+
     }
 
     //Menu selectNiveau
     for (int i = 0; i < 2; i++)
     {
-        
+
     }
 
     //Menu pause
     for (int i = 0; i < 4; i++)
     {
-        
+
     }
 
     //Menu Credits
     for (int i = 0; i < 1; i++)
     {
-        
+
     }
 
     //Menu Scores
     for (int i = 0; i < 1; i++)
     {
-        
+
     }
 
     //Menu JeuEnCours
     for (int i = 0; i < 1; i++)
     {
-        
+
     }
 
     //Menu FinPartie
     for (int i = 0; i < 3; i++)
     {
-        
+
     }
 
 }

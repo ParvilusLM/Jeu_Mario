@@ -39,13 +39,13 @@ struct GenerateurMonstre{
 	sf::Vector2f position;
 	std::vector<Monstre > vecMonstre;
 	int actif;
-}
+};
 
 
-/* 
- 	*Ensemble des structures pour le menu 
-	* BoutonSimple, StructMenu, 
-*/	 
+/*
+ 	*Ensemble des structures pour le menu
+	* BoutonSimple, StructMenu,
+*/
 
 struct BoutonSimple {
 	Nom_bouton nom;
@@ -76,10 +76,10 @@ struct StructMenu
 	//pour le menu selectionNiveau
 	std::vector<BoutonSimple > m_vecBSelectNiveau;
 
-	
+
 	//pour le menu credits
 	std::vector<BoutonSimple > m_vecBCredits;
-	
+
 	//pour le menu scores
 	std::vector<BoutonSimple > m_vecBScores;
 
@@ -95,14 +95,14 @@ struct StructMenu
 
 
 
-/* 
+/*
  	*pour la carte
-	* 
+	*
 */
 
 
-/* 
+/*
  	*pour la camera
-	* 
+	*
 */
 
