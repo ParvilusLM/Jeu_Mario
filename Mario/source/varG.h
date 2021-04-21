@@ -23,8 +23,8 @@ struct Joueur{
 
 
 /*
-	*instance representant les monstres
-	*
+	*structure representant un monstre
+	*structure representant un generateur de monstres
 */
 struct Monstre{
 	int sante;
@@ -37,16 +37,18 @@ struct Monstre{
 
 struct GenerateurMonstre{
 	sf::Vector2f position;
+	int maximum; //quantite qu'on peut generer
+	int cree; //quantite deja generee
 	std::vector<Monstre > vecMonstre;
 	int actif;
 };
+
 
 
 /*
  	*Ensemble des structures pour le menu
 	* BoutonSimple, StructMenu,
 */
-
 struct BoutonSimple {
 	Nom_bouton nom;
 	Etat_bouton etat;
@@ -56,12 +58,16 @@ struct BoutonSimple {
 	Etat_anim etatAnimation;
 };
 
+
+
 struct StructMenu
 {
 	/***  Elements des differents menus   ***/
 
     Type_menu m_typeMenu;
     Element_actif m_elementActif;
+
+    sf::Sprite m_cadreMenu;
 
     //Pour le menu principal
     std::vector<BoutonSimple > m_vecBMPrincipal;
@@ -90,6 +96,9 @@ struct StructMenu
 
     //pour le menu jeu en cours
     std::vector<BoutonSimple > m_vecBJeuEnCours;
+
+	//pour le menu fin de partie
+	std::vector<BoutonSimple > m_vecBFinPartie;
 };
 
 
